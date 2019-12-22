@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>为视频添加背景音乐</title>
+<style type="text/css">
+div{
+	width:600px;
+	margin:0 auto;
+	position: relative;
+}
+video{width:600px;}
+audio{
+	width:600px;
+	height:50px;
+	position: absolute;
+	left:0;
+	top:200px;
+	z-index:1;
+}
+</style>
+</head>
+<body>
+<div>
+	<audio src="media/Beautiful In White.mp3" controls="controls"></audio>
+<!-- 	<audio src="media/hetang.mp3" autoplay controls loop></audio> -->
+	<video src="media/hehua.webm" autoplay loop></video>	
+
+</div>
+</body>
+</html>
